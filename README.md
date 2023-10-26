@@ -19,7 +19,7 @@ Install the necessary dependencies:
 ```sql:
 'npm install'
 ```
-### Usage
+Usage
 To start the development server, run the following command:
 
 ```sql:
