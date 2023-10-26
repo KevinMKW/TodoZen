@@ -17,7 +17,7 @@ cd todo-list-app
 
 Install the necessary dependencies:
 ```sql:
-'npm install'
+npm install
 ```
 Usage
 To start the development server, run the following command:
