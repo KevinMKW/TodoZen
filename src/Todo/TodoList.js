@@ -4,6 +4,12 @@ function TodoList () {
   const [todos, setTodos] = useState([]);
   const [inputValue, setInputValue] = useState('')
 
+  const handleDelete = (index) => {
+    const newTodos = [...todos];
+    newTodos.splice(index, 1);
+    setTodos(newTodos);
+  };
+
   function handleChange(e) {
     setInputValue(e.target.value)
   }
@@ -22,9 +28,9 @@ function TodoList () {
         <button onClick={handleSubmit}>Add Todo</button>
       </form>
       <ul>
-        {todos.map((todo) => (
+        {todos.map((todo, index) => (
           <li key={todo}> {todo}
-            <button>Delete</button>
+            <button onClick={() => handleDelete(index)}>Delete</button>
          </li>
         ))}
       </ul>
