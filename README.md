@@ -12,7 +12,7 @@ git clone https://github.com/KevinMKW/TodoZen.git
 Navigate to the project directory:
 
 ```bash:
-cd todo-list-app
+cd TodoZen
 ```
 
 Install the necessary dependencies:
