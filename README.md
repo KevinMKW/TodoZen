@@ -6,7 +6,7 @@ This project aims to create a functional and user-friendly Todo List app using R
 Clone the repository using the following command:
 
 ```bash:
-git clone https://github.com/KevinMKW/todo-list-app.git
+git clone https://github.com/KevinMKW/TodoZen.git
 ```
 
 Navigate to the project directory:
