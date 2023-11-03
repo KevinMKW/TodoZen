@@ -1,3 +1,4 @@
+import '../styles.css'
 import React, { useState } from 'react';
 
 function TodoList () {
@@ -21,11 +22,11 @@ function TodoList () {
   }
   
   return (
-    <div>
+    <div className='Todo'>
       <h1>Todo List</h1>
-      <form>
-        <input type="text" value={inputValue} onChange={handleChange}/>
-        <button onClick={handleSubmit}>Add Todo</button>
+      <form className='Top'>
+        <input type="text" value={inputValue} className='input' onChange={handleChange}/>
+        <button className='btn' onClick={handleSubmit}>ADD</button>
       </form>
       <ul>
         {todos.map((todo, index) => (
